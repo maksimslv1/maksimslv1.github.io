@@ -7,7 +7,7 @@
   right: 0;
   bottom: 0;
   /* фоновый цвет элемента */
-  background: #884b4b;
+  background: #000000;
   /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
   z-index: 1001;
 }
@@ -28,7 +28,7 @@
   position: absolute;
   display: inline-block;
   top: 0;
-  background-color: #8a9624;
+  background-color: #444444;
   border-radius: 100%;
   width: 35px;
   height: 35px;
@@ -68,8 +68,10 @@
   display: none;
 }
 
+
+
 .u-section-1 {
-  background-image: linear-gradient(#f1b5b8, #77aad9);
+  background-image: none;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -185,7 +187,7 @@
 
 .u-section-1 .u-text-2,
 .u-section-1 .u-text-2:before,
-.u-section-1 .u-text-2>.u-container-layout:before {
+.u-section-1 .u-text-2 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
@@ -229,10 +231,8 @@
 
 .u-container-layout.hover .u-section-1 .u-text-2 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-}
-
-.u-section-2 {
-  background-image: linear-gradient(#77aad9, #72efe9);
+} .u-section-2 {
+  background-image: none;
 }
 
 .u-section-2 .u-sheet-1 {
@@ -260,7 +260,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url("images/image1.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("images/image1.png");
   background-position: 50% 50%;
 }
 
@@ -287,7 +287,7 @@
   min-height: 572px;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-scale: 1;
-  background-image: linear-gradient(#f2f2f2, #adf6f2);
+  background-image: none;
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -395,7 +395,7 @@
 
 .u-section-2 .u-text-3,
 .u-section-2 .u-text-3:before,
-.u-section-2 .u-text-3>.u-container-layout:before {
+.u-section-2 .u-text-3 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
@@ -443,7 +443,7 @@
 
 .u-section-2 .u-text-5,
 .u-section-2 .u-text-5:before,
-.u-section-2 .u-text-5>.u-container-layout:before {
+.u-section-2 .u-text-5 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
@@ -487,10 +487,8 @@
 
 .u-container-layout.hover .u-section-2 .u-text-5 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-}
-
-.u-section-3 {
-  background-image: linear-gradient(#72efe9, #f1b5b8);
+} .u-section-3 {
+  background-image: none;
 }
 
 .u-section-3 .u-sheet-1 {
@@ -613,7 +611,7 @@
 
 .u-section-3 .u-text-2,
 .u-section-3 .u-text-2:before,
-.u-section-3 .u-text-2>.u-container-layout:before {
+.u-section-3 .u-text-2 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
